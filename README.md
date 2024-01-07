@@ -6,7 +6,7 @@ For this second challenge, we were tasked with creating a portfolio page using a
 
 ## Screenshot
 
-![Web Application Screenshot](https://github.com/lowerym/module-challenge-1/assets/146456080/2c3a075b-3fe1-46a2-95c0-5e6ff5f01bd1)
+![Web Application Screenshot](https://github.com/lowerym/module-challenge-2/blob/main/assets/scrnli_1_6_2024_6-39-31%20PM.png)
 
 ## Link to Deployed Application
 
