@@ -10,4 +10,4 @@ For this second challenge, we were tasked with creating a portfolio page using a
 
 ## Link to Deployed Application
 
-[Click here to view live link](https://lowerym.github.io/module-challenge-1/)
+[Click here to view live link](https://lowerym.github.io/module-challenge-2/)
