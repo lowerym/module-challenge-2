@@ -2,7 +2,7 @@
 
 ## Description
 
-For this first challenge, we were tasked with taking the starter code and refactoring it to meet web accessibility standards. Given the criteria, I edited the index file so that there were fewer classes instead of every element having a class. For example, instead of ".search-engine-optimization," ".online-reputation-management", etc., I created the ".content-block" class. From there, I made sure that the styles from the mock-up still applied. I also added alt tags to the images and created a new title to better fit the content on the page. In the stylesheet, I added comments to help structure the styles listed so that whoever works on it in the future knows where to file each style.
+For this second challenge, we were tasked with creating a portfolio page using advanced HTML and CSS techniques. I based the look of the page on the original mock-up that we were provided. This includes the colors, font, content, etc. In accordance with the Acceptance Criteria, I included functionality so that the links in the navigation bar go directly to each section in the page. I also included a gallery of images, each one linking to my future projects during this course. The largest image is the first challenge I completed, and it links to the live version of that application. Also, I've edited the CSS so that the site's display changes on mobile.
 
 ## Screenshot
 
