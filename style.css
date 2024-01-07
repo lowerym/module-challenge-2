@@ -16,10 +16,15 @@ header {
   color: #31343d;
   text-align: right;
   margin: 10px 0;
+  display: flex;
 }
 
 .nav-left h1 {
-  padding-right: 10px;
+  padding: 10px;
+}
+
+.nav-left img {
+  width: 25%;
 }
 
 .nav-right {
@@ -65,4 +70,116 @@ a {
 
 a:hover {
   color: #638a8b;
+}
+
+.right-content a {
+  text-decoration: none;
+}
+
+.image-container {
+  border: 5px solid #92cccd;
+  position: relative;
+  display: inline-block;
+  width: 36.85%;
+}
+
+.image-container img {
+  opacity: 0.5;
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.image-container img:hover {
+  opacity: 1;
+  transition: opacity 0.5s;
+}
+
+.image-container img:not(:hover) {
+  opacity: 0.5;
+  transition: opacity 0.5s;
+}
+
+.featured-container {
+  width: 75%;
+}
+
+.image-container .overlay-text {
+  position: absolute;
+  top: 55%;
+  background-color: #92cccd;
+  color: #fff;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+
+.featured-container .overlay-text {
+  position: absolute;
+  top: 69%;
+  background-color: #92cccd;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 20px;
+}
+
+.overlay-text h3 {
+  color: #31343d;
+}
+
+#contact-me a {
+  text-decoration: underline;
+}
+
+#contact-me ul {
+  list-style-type: none;
+  padding-left: 0;
+  margin: 25px auto;
+}
+
+#contact-me li {
+  display: inline;
+  padding: 25px;
+}
+
+@media screen and (max-width: 500px) {
+  .nav-left {
+    flex: 4;
+    display: initial;
+    margin: 28.5px 0;
+  }
+  .nav-left img {
+    width: 49%;
+    display: inline;
+    float: left;
+  }
+  .nav-right {
+    flex: 2;
+  }
+  .nav-right li {
+    display: block;
+    padding: 5px;
+  }
+  .image-container.featured-container {
+    width: 90%;
+  }
+  .image-container.featured-container .overlay-text {
+    top: 48%;
+    padding: 5px 10px;
+    font-size: 12px;
+  }
+  .image-container {
+    width: 42.5%;
+  }
+  .image-container .overlay-text {
+    font-size: 8px;
+    padding: 0 5px;
+    top: 37%;
+  }
+  #contact-me ul {
+    padding-left: 0;
+  }
+  #contact-me li {
+    padding: 10px;
+    display: block;
+  }
 }
